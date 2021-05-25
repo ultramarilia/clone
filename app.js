@@ -1,5 +1,14 @@
 function somar (a,b) {
-    console.log(a+b)
+    return a+b
 };
 
-somar (1,9)
+function subtrair (a,b) {
+    return a-b
+};
+
+
+function calculadora(operacao, a,b){
+    console.log(operacao(a,b))
+};
+
+calculadora(somar, 2, 9)
